@@ -16,6 +16,10 @@
   display: inline-block;
   margin-right: 12px;
 }
+```
+
+```
+/* This doesn't currently work */
 
 .square {
   width: 100px;
@@ -30,6 +34,10 @@
   background-color: attr(data-background-color);
   border-radius: attr(data-border-radius);
 }
+```
+
+```
+/* But this, combined with the JavaScript below, does work */
 
 .square {
   width: var(--width, 100px);
