@@ -1,5 +1,5 @@
 # Polyfill for CSS `attr()` Function
-*An idea to use **HTML Custom Data Attributes** and **CSS Custom Properties** as a polyfill for the CSS `attr()` function*
+*An idea to use **HTML Custom Data Attributes** and **CSS Custom Properties** as a polyfill for the CSS (currently-limited) `attr()` function*
 
 ## HTML
 ```
