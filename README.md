@@ -69,7 +69,7 @@ _______
 ```
 *isn't it?*
 
-Mostly, yes, but `document.querySelector('.square').getAttribute('style')` isn't an object, whereas document.querySelector('.square').dataset` is.
+Mostly, yes, but `document.querySelector('.square').getAttribute('style')` isn't an object, whereas `document.querySelector('.square').dataset` is.
 
 *Right. But then:*
 
@@ -78,4 +78,4 @@ const myObject = {};
 const myArray = document.querySelector('.square').getAttribute('style').split(';').map((element) => element.trim()).filter((element) => element.length > 0).forEach((element) => myObject[element.split(':')[0]] = element.split(':')[1]);
 ```
 
-*gives you the same object (more or less), doesn't it?*
+*gives you that same object (more or less), doesn't it?*
