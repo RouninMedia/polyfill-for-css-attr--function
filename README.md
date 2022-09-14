@@ -63,7 +63,7 @@ _______
 ```
 <div class="square" data-width="50px" data-height="50px" data-background-color="orange"></div>
 ```
-*plus the CSS, plus the JS, is ultimately... not significantly different from:*
+*plus the **CSS**, plus the **JS**, is ultimately... not significantly different from:*
 ```
 <div class="square" style="width:50px; height:50px; background-color:orange;"></div>
 ```
