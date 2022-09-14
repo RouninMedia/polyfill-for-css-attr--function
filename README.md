@@ -59,7 +59,12 @@ _______
 
 ## Questions and Answers
 
-*This is a bit silly, isn't it? Isn't*
-    <div class="square" data-width="50px" data-height="50px" data-background-color="orange"></div>
-*just the same as:*
-    <div class="square" style="width:50px; height:50px; background-color:orange;"></div>
+*This is a bit silly, isn't it?*
+```
+<div class="square" data-width="50px" data-height="50px" data-background-color="orange"></div>
+```
+*is just the same as:*
+```
+<div class="square" style="width:50px; height:50px; background-color:orange;"></div>
+```
+*isn't it?*
