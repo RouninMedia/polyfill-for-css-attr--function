@@ -97,4 +97,4 @@ Whereas, `dataset` starts as an `object`, is updated as an `object` and remains 
 
 And simplicity here is the point.
 
-Perhaps this `dataset`-based approach might fit well with something like <a href="https://github.com/RouninMedia/ashiva-find-and-replace-tools-v1" target="_blank">*veSPA*</a>.
+Perhaps this `dataset`-based approach might fit well with something like <a href="https://github.com/RouninMedia/ashiva-find-and-replace-tools-v1" target="_blank">*veSPA*</a>?
