@@ -54,3 +54,12 @@ const squares = document.querySelectorAll('.square');
 const toProperty = (key) => key.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
 squares.forEach((square) => {Object.keys(square.dataset).forEach((key) => square.style.setProperty(`--${toProperty(key)}`, square.dataset[key]))});
 ```
+
+_______
+
+## Questions and Answers
+
+*This is a bit silly, isn't it? Isn't*
+    <div class="square" data-width="50px" data-height="50px" data-background-color="orange"></div>
+*just the same as:*
+    <div class="square" style="width:50px; height:50px; background-color:orange;"></div>
