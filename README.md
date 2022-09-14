@@ -63,8 +63,19 @@ _______
 ```
 <div class="square" data-width="50px" data-height="50px" data-background-color="orange"></div>
 ```
-*is just the same as:*
+*plus the CSS, plus the JS, is... just the same as:*
 ```
 <div class="square" style="width:50px; height:50px; background-color:orange;"></div>
 ```
 *isn't it?*
+
+Mostly, yes, but `document.querySelector('.square').getAttribute('style')` isn't an object, whereas document.querySelector('.square').dataset` is.
+
+*Right. But then:*
+
+```
+const myObject = {};
+const myArray = document.querySelector('.square').getAttribute('style').split(';').map((element) => element.trim()).filter((element) => element.length > 0).forEach((element) => myObject[element.split(':')[0]] = element.split(':')[1]);
+```
+
+*gives you the same object (more or less), doesn't it?*
