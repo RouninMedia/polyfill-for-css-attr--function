@@ -94,3 +94,5 @@ myArray.forEach((element) => myObject[element.split(':')[0]] = element.split(':'
 Again, yes, but that's a lot of *`string` to `array` to `object`* conversion, every time the `style` attribute updates, isn't it?
 
 Whereas, `dataset` starts as an `object`, is updated as an `object` and remains an `object`.
+
+On that basis, this `dataset`-based approach might fit well with something like <a href="https://github.com/RouninMedia/ashiva-find-and-replace-tools-v1" target="_blank">*veSPA*</a>.
