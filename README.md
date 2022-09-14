@@ -63,13 +63,13 @@ _______
 ```
 <div class="square" data-width="50px" data-height="50px" data-background-color="orange"></div>
 ```
-*plus the CSS, plus the JS, is... just the same as:*
+*plus the CSS, plus the JS, is ultimately... not significantly different from:*
 ```
 <div class="square" style="width:50px; height:50px; background-color:orange;"></div>
 ```
-*isn't it?*
+*is it?*
 
-Mostly, yes, but 
+You could argue that, but it's important to note that: 
 
  - `document.querySelector('.square').getAttribute('style')`
 
@@ -90,3 +90,5 @@ myArray.forEach((element) => myObject[element.split(':')[0]] = element.split(':'
 ```
 
 *gives you that same object (more or less), doesn't it?*
+
+Again, yes, but that's a lot of *`string` to `array` to `object`* conversion, every time the `style` attribute updates, whereas, `dataset` starts as an `object`, is updated as an `object` and remains an `object`.
