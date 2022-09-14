@@ -91,4 +91,6 @@ myArray.forEach((element) => myObject[element.split(':')[0]] = element.split(':'
 
 *gives you that same object (more or less), doesn't it?*
 
-Again, yes, but that's a lot of *`string` to `array` to `object`* conversion, every time the `style` attribute updates, whereas, `dataset` starts as an `object`, is updated as an `object` and remains an `object`.
+Again, yes, but that's a lot of *`string` to `array` to `object`* conversion, every time the `style` attribute updates, isn't it?
+
+Whereas, `dataset` starts as an `object`, is updated as an `object` and remains an `object`.
