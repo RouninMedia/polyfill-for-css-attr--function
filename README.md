@@ -83,6 +83,7 @@ is.
 
 ```
 let myObject = {};
+
 let myArray = document.querySelector('.square').getAttribute('style');
 myArray = myArray.split(';').map((element) => element.trim()).filter((element) => element.length > 0);
 myArray.forEach((element) => myObject[element.split(':')[0]] = element.split(':')[1]);
